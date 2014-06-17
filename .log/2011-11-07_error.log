@@ -1,0 +1,1465 @@
+2011-11-07 15:29:20 198.178.168.44 00000001 /hgl/cc/kwdycsdck/index 
+
+object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+  ["_previous:private"] => NULL
+  ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+  ["string:private"] => string(0) ""
+  ["code:protected"] => int(0)
+  ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+  ["line:protected"] => int(248)
+  ["trace:private"] => array(2) {
+    [0] => array(6) {
+      ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+      ["line"] => int(954)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+      ["type"] => string(2) "->"
+      ["args"] => array(2) {
+        [0] => object(Zend_Controller_Request_Http)#24 (15) {
+          ["_paramSources:protected"] => array(2) {
+            [0] => string(4) "_GET"
+            [1] => string(5) "_POST"
+          }
+          ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+          ["_baseUrl:protected"] => string(4) "/hgl"
+          ["_basePath:protected"] => string(4) "/hgl"
+          ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+          ["_params:protected"] => array(4) {
+            ["module"] => string(2) "cc"
+            ["controller"] => string(9) "kwdycsdck"
+            ["action"] => string(5) "index"
+            ["error_handler"] => object(ArrayObject)#28 (3) {
+              ["exception"] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+                ["_previous:private"] => NULL
+                ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+                ["string:private"] => string(0) ""
+                ["code:protected"] => int(0)
+                ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+                ["line:protected"] => int(248)
+                ["trace:private"] => array(2) {
+                  [0] => array(6) {
+                    ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                    ["line"] => int(954)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(2) {
+                      [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                        ["_paramSources:protected"] => array(2) {
+                          [0] => string(4) "_GET"
+                          [1] => string(5) "_POST"
+                        }
+                        ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                        ["_baseUrl:protected"] => string(4) "/hgl"
+                        ["_basePath:protected"] => string(4) "/hgl"
+                        ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                        ["_params:protected"] => array(4) {
+                          ["module"] => string(2) "cc"
+                          ["controller"] => string(9) "kwdycsdck"
+                          ["action"] => string(5) "index"
+                          ["error_handler"] => object(ArrayObject)#28 (3) {
+                            ["exception"] => *RECURSION*
+                            ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                            ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                              ["_paramSources:protected"] => array(2) {
+                                [0] => string(4) "_GET"
+                                [1] => string(5) "_POST"
+                              }
+                              ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                              ["_baseUrl:protected"] => string(4) "/hgl"
+                              ["_basePath:protected"] => NULL
+                              ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                              ["_params:protected"] => array(3) {
+                                ["module"] => string(2) "cc"
+                                ["controller"] => string(9) "kwdycsdck"
+                                ["action"] => string(5) "index"
+                              }
+                              ["_rawBody:protected"] => NULL
+                              ["_aliases:protected"] => array(0) {
+                              }
+                              ["_dispatched:protected"] => bool(true)
+                              ["_module:protected"] => string(2) "cc"
+                              ["_moduleKey:protected"] => string(6) "module"
+                              ["_controller:protected"] => string(9) "kwdycsdck"
+                              ["_controllerKey:protected"] => string(10) "controller"
+                              ["_action:protected"] => string(5) "index"
+                              ["_actionKey:protected"] => string(6) "action"
+                            }
+                          }
+                        }
+                        ["_rawBody:protected"] => NULL
+                        ["_aliases:protected"] => array(0) {
+                        }
+                        ["_dispatched:protected"] => bool(true)
+                        ["_module:protected"] => string(2) "gt"
+                        ["_moduleKey:protected"] => string(6) "module"
+                        ["_controller:protected"] => string(4) "info"
+                        ["_controllerKey:protected"] => string(10) "controller"
+                        ["_action:protected"] => string(5) "error"
+                        ["_actionKey:protected"] => string(6) "action"
+                      }
+                      [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                        ["_body:protected"] => array(0) {
+                        }
+                        ["_exceptions:protected"] => array(1) {
+                          [0] => *RECURSION*
+                        }
+                        ["_headers:protected"] => array(0) {
+                        }
+                        ["_headersRaw:protected"] => array(0) {
+                        }
+                        ["_httpResponseCode:protected"] => int(200)
+                        ["_isRedirect:protected"] => bool(false)
+                        ["_renderExceptions:protected"] => bool(false)
+                        ["headersSentThrowsException"] => bool(true)
+                      }
+                    }
+                  }
+                  [1] => array(6) {
+                    ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                    ["line"] => int(10)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(21) "Zend_Controller_Front"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(0) {
+                    }
+                  }
+                }
+              }
+              ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+              ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                ["_paramSources:protected"] => array(2) {
+                  [0] => string(4) "_GET"
+                  [1] => string(5) "_POST"
+                }
+                ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                ["_baseUrl:protected"] => string(4) "/hgl"
+                ["_basePath:protected"] => NULL
+                ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                ["_params:protected"] => array(3) {
+                  ["module"] => string(2) "cc"
+                  ["controller"] => string(9) "kwdycsdck"
+                  ["action"] => string(5) "index"
+                }
+                ["_rawBody:protected"] => NULL
+                ["_aliases:protected"] => array(0) {
+                }
+                ["_dispatched:protected"] => bool(true)
+                ["_module:protected"] => string(2) "cc"
+                ["_moduleKey:protected"] => string(6) "module"
+                ["_controller:protected"] => string(9) "kwdycsdck"
+                ["_controllerKey:protected"] => string(10) "controller"
+                ["_action:protected"] => string(5) "index"
+                ["_actionKey:protected"] => string(6) "action"
+              }
+            }
+          }
+          ["_rawBody:protected"] => NULL
+          ["_aliases:protected"] => array(0) {
+          }
+          ["_dispatched:protected"] => bool(true)
+          ["_module:protected"] => string(2) "gt"
+          ["_moduleKey:protected"] => string(6) "module"
+          ["_controller:protected"] => string(4) "info"
+          ["_controllerKey:protected"] => string(10) "controller"
+          ["_action:protected"] => string(5) "error"
+          ["_actionKey:protected"] => string(6) "action"
+        }
+        [1] => object(Zend_Controller_Response_Http)#25 (8) {
+          ["_body:protected"] => array(0) {
+          }
+          ["_exceptions:protected"] => array(1) {
+            [0] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+              ["_previous:private"] => NULL
+              ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+              ["string:private"] => string(0) ""
+              ["code:protected"] => int(0)
+              ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+              ["line:protected"] => int(248)
+              ["trace:private"] => array(2) {
+                [0] => array(6) {
+                  ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                  ["line"] => int(954)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(2) {
+                    [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                      ["_paramSources:protected"] => array(2) {
+                        [0] => string(4) "_GET"
+                        [1] => string(5) "_POST"
+                      }
+                      ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                      ["_baseUrl:protected"] => string(4) "/hgl"
+                      ["_basePath:protected"] => string(4) "/hgl"
+                      ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                      ["_params:protected"] => array(4) {
+                        ["module"] => string(2) "cc"
+                        ["controller"] => string(9) "kwdycsdck"
+                        ["action"] => string(5) "index"
+                        ["error_handler"] => object(ArrayObject)#28 (3) {
+                          ["exception"] => *RECURSION*
+                          ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                          ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                            ["_paramSources:protected"] => array(2) {
+                              [0] => string(4) "_GET"
+                              [1] => string(5) "_POST"
+                            }
+                            ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                            ["_baseUrl:protected"] => string(4) "/hgl"
+                            ["_basePath:protected"] => NULL
+                            ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                            ["_params:protected"] => array(3) {
+                              ["module"] => string(2) "cc"
+                              ["controller"] => string(9) "kwdycsdck"
+                              ["action"] => string(5) "index"
+                            }
+                            ["_rawBody:protected"] => NULL
+                            ["_aliases:protected"] => array(0) {
+                            }
+                            ["_dispatched:protected"] => bool(true)
+                            ["_module:protected"] => string(2) "cc"
+                            ["_moduleKey:protected"] => string(6) "module"
+                            ["_controller:protected"] => string(9) "kwdycsdck"
+                            ["_controllerKey:protected"] => string(10) "controller"
+                            ["_action:protected"] => string(5) "index"
+                            ["_actionKey:protected"] => string(6) "action"
+                          }
+                        }
+                      }
+                      ["_rawBody:protected"] => NULL
+                      ["_aliases:protected"] => array(0) {
+                      }
+                      ["_dispatched:protected"] => bool(true)
+                      ["_module:protected"] => string(2) "gt"
+                      ["_moduleKey:protected"] => string(6) "module"
+                      ["_controller:protected"] => string(4) "info"
+                      ["_controllerKey:protected"] => string(10) "controller"
+                      ["_action:protected"] => string(5) "error"
+                      ["_actionKey:protected"] => string(6) "action"
+                    }
+                    [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                      ["_body:protected"] => array(0) {
+                      }
+                      ["_exceptions:protected"] => array(1) {
+                        [0] => *RECURSION*
+                      }
+                      ["_headers:protected"] => array(0) {
+                      }
+                      ["_headersRaw:protected"] => array(0) {
+                      }
+                      ["_httpResponseCode:protected"] => int(200)
+                      ["_isRedirect:protected"] => bool(false)
+                      ["_renderExceptions:protected"] => bool(false)
+                      ["headersSentThrowsException"] => bool(true)
+                    }
+                  }
+                }
+                [1] => array(6) {
+                  ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                  ["line"] => int(10)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(21) "Zend_Controller_Front"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(0) {
+                  }
+                }
+              }
+            }
+          }
+          ["_headers:protected"] => array(0) {
+          }
+          ["_headersRaw:protected"] => array(0) {
+          }
+          ["_httpResponseCode:protected"] => int(200)
+          ["_isRedirect:protected"] => bool(false)
+          ["_renderExceptions:protected"] => bool(false)
+          ["headersSentThrowsException"] => bool(true)
+        }
+      }
+    }
+    [1] => array(6) {
+      ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+      ["line"] => int(10)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(21) "Zend_Controller_Front"
+      ["type"] => string(2) "->"
+      ["args"] => array(0) {
+      }
+    }
+  }
+}
+
+
+2011-11-07 15:29:42 198.178.168.44 00000001 /hgl/cc/kwdycsdck/index 
+
+object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+  ["_previous:private"] => NULL
+  ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+  ["string:private"] => string(0) ""
+  ["code:protected"] => int(0)
+  ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+  ["line:protected"] => int(248)
+  ["trace:private"] => array(2) {
+    [0] => array(6) {
+      ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+      ["line"] => int(954)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+      ["type"] => string(2) "->"
+      ["args"] => array(2) {
+        [0] => object(Zend_Controller_Request_Http)#24 (15) {
+          ["_paramSources:protected"] => array(2) {
+            [0] => string(4) "_GET"
+            [1] => string(5) "_POST"
+          }
+          ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+          ["_baseUrl:protected"] => string(4) "/hgl"
+          ["_basePath:protected"] => string(4) "/hgl"
+          ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+          ["_params:protected"] => array(4) {
+            ["module"] => string(2) "cc"
+            ["controller"] => string(9) "kwdycsdck"
+            ["action"] => string(5) "index"
+            ["error_handler"] => object(ArrayObject)#28 (3) {
+              ["exception"] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+                ["_previous:private"] => NULL
+                ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+                ["string:private"] => string(0) ""
+                ["code:protected"] => int(0)
+                ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+                ["line:protected"] => int(248)
+                ["trace:private"] => array(2) {
+                  [0] => array(6) {
+                    ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                    ["line"] => int(954)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(2) {
+                      [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                        ["_paramSources:protected"] => array(2) {
+                          [0] => string(4) "_GET"
+                          [1] => string(5) "_POST"
+                        }
+                        ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                        ["_baseUrl:protected"] => string(4) "/hgl"
+                        ["_basePath:protected"] => string(4) "/hgl"
+                        ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                        ["_params:protected"] => array(4) {
+                          ["module"] => string(2) "cc"
+                          ["controller"] => string(9) "kwdycsdck"
+                          ["action"] => string(5) "index"
+                          ["error_handler"] => object(ArrayObject)#28 (3) {
+                            ["exception"] => *RECURSION*
+                            ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                            ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                              ["_paramSources:protected"] => array(2) {
+                                [0] => string(4) "_GET"
+                                [1] => string(5) "_POST"
+                              }
+                              ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                              ["_baseUrl:protected"] => string(4) "/hgl"
+                              ["_basePath:protected"] => NULL
+                              ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                              ["_params:protected"] => array(3) {
+                                ["module"] => string(2) "cc"
+                                ["controller"] => string(9) "kwdycsdck"
+                                ["action"] => string(5) "index"
+                              }
+                              ["_rawBody:protected"] => NULL
+                              ["_aliases:protected"] => array(0) {
+                              }
+                              ["_dispatched:protected"] => bool(true)
+                              ["_module:protected"] => string(2) "cc"
+                              ["_moduleKey:protected"] => string(6) "module"
+                              ["_controller:protected"] => string(9) "kwdycsdck"
+                              ["_controllerKey:protected"] => string(10) "controller"
+                              ["_action:protected"] => string(5) "index"
+                              ["_actionKey:protected"] => string(6) "action"
+                            }
+                          }
+                        }
+                        ["_rawBody:protected"] => NULL
+                        ["_aliases:protected"] => array(0) {
+                        }
+                        ["_dispatched:protected"] => bool(true)
+                        ["_module:protected"] => string(2) "gt"
+                        ["_moduleKey:protected"] => string(6) "module"
+                        ["_controller:protected"] => string(4) "info"
+                        ["_controllerKey:protected"] => string(10) "controller"
+                        ["_action:protected"] => string(5) "error"
+                        ["_actionKey:protected"] => string(6) "action"
+                      }
+                      [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                        ["_body:protected"] => array(0) {
+                        }
+                        ["_exceptions:protected"] => array(1) {
+                          [0] => *RECURSION*
+                        }
+                        ["_headers:protected"] => array(0) {
+                        }
+                        ["_headersRaw:protected"] => array(0) {
+                        }
+                        ["_httpResponseCode:protected"] => int(200)
+                        ["_isRedirect:protected"] => bool(false)
+                        ["_renderExceptions:protected"] => bool(false)
+                        ["headersSentThrowsException"] => bool(true)
+                      }
+                    }
+                  }
+                  [1] => array(6) {
+                    ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                    ["line"] => int(10)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(21) "Zend_Controller_Front"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(0) {
+                    }
+                  }
+                }
+              }
+              ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+              ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                ["_paramSources:protected"] => array(2) {
+                  [0] => string(4) "_GET"
+                  [1] => string(5) "_POST"
+                }
+                ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                ["_baseUrl:protected"] => string(4) "/hgl"
+                ["_basePath:protected"] => NULL
+                ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                ["_params:protected"] => array(3) {
+                  ["module"] => string(2) "cc"
+                  ["controller"] => string(9) "kwdycsdck"
+                  ["action"] => string(5) "index"
+                }
+                ["_rawBody:protected"] => NULL
+                ["_aliases:protected"] => array(0) {
+                }
+                ["_dispatched:protected"] => bool(true)
+                ["_module:protected"] => string(2) "cc"
+                ["_moduleKey:protected"] => string(6) "module"
+                ["_controller:protected"] => string(9) "kwdycsdck"
+                ["_controllerKey:protected"] => string(10) "controller"
+                ["_action:protected"] => string(5) "index"
+                ["_actionKey:protected"] => string(6) "action"
+              }
+            }
+          }
+          ["_rawBody:protected"] => NULL
+          ["_aliases:protected"] => array(0) {
+          }
+          ["_dispatched:protected"] => bool(true)
+          ["_module:protected"] => string(2) "gt"
+          ["_moduleKey:protected"] => string(6) "module"
+          ["_controller:protected"] => string(4) "info"
+          ["_controllerKey:protected"] => string(10) "controller"
+          ["_action:protected"] => string(5) "error"
+          ["_actionKey:protected"] => string(6) "action"
+        }
+        [1] => object(Zend_Controller_Response_Http)#25 (8) {
+          ["_body:protected"] => array(0) {
+          }
+          ["_exceptions:protected"] => array(1) {
+            [0] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+              ["_previous:private"] => NULL
+              ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+              ["string:private"] => string(0) ""
+              ["code:protected"] => int(0)
+              ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+              ["line:protected"] => int(248)
+              ["trace:private"] => array(2) {
+                [0] => array(6) {
+                  ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                  ["line"] => int(954)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(2) {
+                    [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                      ["_paramSources:protected"] => array(2) {
+                        [0] => string(4) "_GET"
+                        [1] => string(5) "_POST"
+                      }
+                      ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                      ["_baseUrl:protected"] => string(4) "/hgl"
+                      ["_basePath:protected"] => string(4) "/hgl"
+                      ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                      ["_params:protected"] => array(4) {
+                        ["module"] => string(2) "cc"
+                        ["controller"] => string(9) "kwdycsdck"
+                        ["action"] => string(5) "index"
+                        ["error_handler"] => object(ArrayObject)#28 (3) {
+                          ["exception"] => *RECURSION*
+                          ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                          ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                            ["_paramSources:protected"] => array(2) {
+                              [0] => string(4) "_GET"
+                              [1] => string(5) "_POST"
+                            }
+                            ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                            ["_baseUrl:protected"] => string(4) "/hgl"
+                            ["_basePath:protected"] => NULL
+                            ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                            ["_params:protected"] => array(3) {
+                              ["module"] => string(2) "cc"
+                              ["controller"] => string(9) "kwdycsdck"
+                              ["action"] => string(5) "index"
+                            }
+                            ["_rawBody:protected"] => NULL
+                            ["_aliases:protected"] => array(0) {
+                            }
+                            ["_dispatched:protected"] => bool(true)
+                            ["_module:protected"] => string(2) "cc"
+                            ["_moduleKey:protected"] => string(6) "module"
+                            ["_controller:protected"] => string(9) "kwdycsdck"
+                            ["_controllerKey:protected"] => string(10) "controller"
+                            ["_action:protected"] => string(5) "index"
+                            ["_actionKey:protected"] => string(6) "action"
+                          }
+                        }
+                      }
+                      ["_rawBody:protected"] => NULL
+                      ["_aliases:protected"] => array(0) {
+                      }
+                      ["_dispatched:protected"] => bool(true)
+                      ["_module:protected"] => string(2) "gt"
+                      ["_moduleKey:protected"] => string(6) "module"
+                      ["_controller:protected"] => string(4) "info"
+                      ["_controllerKey:protected"] => string(10) "controller"
+                      ["_action:protected"] => string(5) "error"
+                      ["_actionKey:protected"] => string(6) "action"
+                    }
+                    [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                      ["_body:protected"] => array(0) {
+                      }
+                      ["_exceptions:protected"] => array(1) {
+                        [0] => *RECURSION*
+                      }
+                      ["_headers:protected"] => array(0) {
+                      }
+                      ["_headersRaw:protected"] => array(0) {
+                      }
+                      ["_httpResponseCode:protected"] => int(200)
+                      ["_isRedirect:protected"] => bool(false)
+                      ["_renderExceptions:protected"] => bool(false)
+                      ["headersSentThrowsException"] => bool(true)
+                    }
+                  }
+                }
+                [1] => array(6) {
+                  ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                  ["line"] => int(10)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(21) "Zend_Controller_Front"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(0) {
+                  }
+                }
+              }
+            }
+          }
+          ["_headers:protected"] => array(0) {
+          }
+          ["_headersRaw:protected"] => array(0) {
+          }
+          ["_httpResponseCode:protected"] => int(200)
+          ["_isRedirect:protected"] => bool(false)
+          ["_renderExceptions:protected"] => bool(false)
+          ["headersSentThrowsException"] => bool(true)
+        }
+      }
+    }
+    [1] => array(6) {
+      ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+      ["line"] => int(10)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(21) "Zend_Controller_Front"
+      ["type"] => string(2) "->"
+      ["args"] => array(0) {
+      }
+    }
+  }
+}
+
+
+2011-11-07 15:29:55 198.178.168.44 00000001 /hgl/cc/kwdycsdck/index 
+
+object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+  ["_previous:private"] => NULL
+  ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+  ["string:private"] => string(0) ""
+  ["code:protected"] => int(0)
+  ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+  ["line:protected"] => int(248)
+  ["trace:private"] => array(2) {
+    [0] => array(6) {
+      ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+      ["line"] => int(954)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+      ["type"] => string(2) "->"
+      ["args"] => array(2) {
+        [0] => object(Zend_Controller_Request_Http)#24 (15) {
+          ["_paramSources:protected"] => array(2) {
+            [0] => string(4) "_GET"
+            [1] => string(5) "_POST"
+          }
+          ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+          ["_baseUrl:protected"] => string(4) "/hgl"
+          ["_basePath:protected"] => string(4) "/hgl"
+          ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+          ["_params:protected"] => array(4) {
+            ["module"] => string(2) "cc"
+            ["controller"] => string(9) "kwdycsdck"
+            ["action"] => string(5) "index"
+            ["error_handler"] => object(ArrayObject)#28 (3) {
+              ["exception"] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+                ["_previous:private"] => NULL
+                ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+                ["string:private"] => string(0) ""
+                ["code:protected"] => int(0)
+                ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+                ["line:protected"] => int(248)
+                ["trace:private"] => array(2) {
+                  [0] => array(6) {
+                    ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                    ["line"] => int(954)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(2) {
+                      [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                        ["_paramSources:protected"] => array(2) {
+                          [0] => string(4) "_GET"
+                          [1] => string(5) "_POST"
+                        }
+                        ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                        ["_baseUrl:protected"] => string(4) "/hgl"
+                        ["_basePath:protected"] => string(4) "/hgl"
+                        ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                        ["_params:protected"] => array(4) {
+                          ["module"] => string(2) "cc"
+                          ["controller"] => string(9) "kwdycsdck"
+                          ["action"] => string(5) "index"
+                          ["error_handler"] => object(ArrayObject)#28 (3) {
+                            ["exception"] => *RECURSION*
+                            ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                            ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                              ["_paramSources:protected"] => array(2) {
+                                [0] => string(4) "_GET"
+                                [1] => string(5) "_POST"
+                              }
+                              ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                              ["_baseUrl:protected"] => string(4) "/hgl"
+                              ["_basePath:protected"] => NULL
+                              ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                              ["_params:protected"] => array(3) {
+                                ["module"] => string(2) "cc"
+                                ["controller"] => string(9) "kwdycsdck"
+                                ["action"] => string(5) "index"
+                              }
+                              ["_rawBody:protected"] => NULL
+                              ["_aliases:protected"] => array(0) {
+                              }
+                              ["_dispatched:protected"] => bool(true)
+                              ["_module:protected"] => string(2) "cc"
+                              ["_moduleKey:protected"] => string(6) "module"
+                              ["_controller:protected"] => string(9) "kwdycsdck"
+                              ["_controllerKey:protected"] => string(10) "controller"
+                              ["_action:protected"] => string(5) "index"
+                              ["_actionKey:protected"] => string(6) "action"
+                            }
+                          }
+                        }
+                        ["_rawBody:protected"] => NULL
+                        ["_aliases:protected"] => array(0) {
+                        }
+                        ["_dispatched:protected"] => bool(true)
+                        ["_module:protected"] => string(2) "gt"
+                        ["_moduleKey:protected"] => string(6) "module"
+                        ["_controller:protected"] => string(4) "info"
+                        ["_controllerKey:protected"] => string(10) "controller"
+                        ["_action:protected"] => string(5) "error"
+                        ["_actionKey:protected"] => string(6) "action"
+                      }
+                      [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                        ["_body:protected"] => array(0) {
+                        }
+                        ["_exceptions:protected"] => array(1) {
+                          [0] => *RECURSION*
+                        }
+                        ["_headers:protected"] => array(0) {
+                        }
+                        ["_headersRaw:protected"] => array(0) {
+                        }
+                        ["_httpResponseCode:protected"] => int(200)
+                        ["_isRedirect:protected"] => bool(false)
+                        ["_renderExceptions:protected"] => bool(false)
+                        ["headersSentThrowsException"] => bool(true)
+                      }
+                    }
+                  }
+                  [1] => array(6) {
+                    ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                    ["line"] => int(10)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(21) "Zend_Controller_Front"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(0) {
+                    }
+                  }
+                }
+              }
+              ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+              ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                ["_paramSources:protected"] => array(2) {
+                  [0] => string(4) "_GET"
+                  [1] => string(5) "_POST"
+                }
+                ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                ["_baseUrl:protected"] => string(4) "/hgl"
+                ["_basePath:protected"] => NULL
+                ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                ["_params:protected"] => array(3) {
+                  ["module"] => string(2) "cc"
+                  ["controller"] => string(9) "kwdycsdck"
+                  ["action"] => string(5) "index"
+                }
+                ["_rawBody:protected"] => NULL
+                ["_aliases:protected"] => array(0) {
+                }
+                ["_dispatched:protected"] => bool(true)
+                ["_module:protected"] => string(2) "cc"
+                ["_moduleKey:protected"] => string(6) "module"
+                ["_controller:protected"] => string(9) "kwdycsdck"
+                ["_controllerKey:protected"] => string(10) "controller"
+                ["_action:protected"] => string(5) "index"
+                ["_actionKey:protected"] => string(6) "action"
+              }
+            }
+          }
+          ["_rawBody:protected"] => NULL
+          ["_aliases:protected"] => array(0) {
+          }
+          ["_dispatched:protected"] => bool(true)
+          ["_module:protected"] => string(2) "gt"
+          ["_moduleKey:protected"] => string(6) "module"
+          ["_controller:protected"] => string(4) "info"
+          ["_controllerKey:protected"] => string(10) "controller"
+          ["_action:protected"] => string(5) "error"
+          ["_actionKey:protected"] => string(6) "action"
+        }
+        [1] => object(Zend_Controller_Response_Http)#25 (8) {
+          ["_body:protected"] => array(0) {
+          }
+          ["_exceptions:protected"] => array(1) {
+            [0] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+              ["_previous:private"] => NULL
+              ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+              ["string:private"] => string(0) ""
+              ["code:protected"] => int(0)
+              ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+              ["line:protected"] => int(248)
+              ["trace:private"] => array(2) {
+                [0] => array(6) {
+                  ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                  ["line"] => int(954)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(2) {
+                    [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                      ["_paramSources:protected"] => array(2) {
+                        [0] => string(4) "_GET"
+                        [1] => string(5) "_POST"
+                      }
+                      ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                      ["_baseUrl:protected"] => string(4) "/hgl"
+                      ["_basePath:protected"] => string(4) "/hgl"
+                      ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                      ["_params:protected"] => array(4) {
+                        ["module"] => string(2) "cc"
+                        ["controller"] => string(9) "kwdycsdck"
+                        ["action"] => string(5) "index"
+                        ["error_handler"] => object(ArrayObject)#28 (3) {
+                          ["exception"] => *RECURSION*
+                          ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                          ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                            ["_paramSources:protected"] => array(2) {
+                              [0] => string(4) "_GET"
+                              [1] => string(5) "_POST"
+                            }
+                            ["_requestUri:protected"] => string(23) "/hgl/cc/kwdycsdck/index"
+                            ["_baseUrl:protected"] => string(4) "/hgl"
+                            ["_basePath:protected"] => NULL
+                            ["_pathInfo:protected"] => string(19) "/cc/kwdycsdck/index"
+                            ["_params:protected"] => array(3) {
+                              ["module"] => string(2) "cc"
+                              ["controller"] => string(9) "kwdycsdck"
+                              ["action"] => string(5) "index"
+                            }
+                            ["_rawBody:protected"] => NULL
+                            ["_aliases:protected"] => array(0) {
+                            }
+                            ["_dispatched:protected"] => bool(true)
+                            ["_module:protected"] => string(2) "cc"
+                            ["_moduleKey:protected"] => string(6) "module"
+                            ["_controller:protected"] => string(9) "kwdycsdck"
+                            ["_controllerKey:protected"] => string(10) "controller"
+                            ["_action:protected"] => string(5) "index"
+                            ["_actionKey:protected"] => string(6) "action"
+                          }
+                        }
+                      }
+                      ["_rawBody:protected"] => NULL
+                      ["_aliases:protected"] => array(0) {
+                      }
+                      ["_dispatched:protected"] => bool(true)
+                      ["_module:protected"] => string(2) "gt"
+                      ["_moduleKey:protected"] => string(6) "module"
+                      ["_controller:protected"] => string(4) "info"
+                      ["_controllerKey:protected"] => string(10) "controller"
+                      ["_action:protected"] => string(5) "error"
+                      ["_actionKey:protected"] => string(6) "action"
+                    }
+                    [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                      ["_body:protected"] => array(0) {
+                      }
+                      ["_exceptions:protected"] => array(1) {
+                        [0] => *RECURSION*
+                      }
+                      ["_headers:protected"] => array(0) {
+                      }
+                      ["_headersRaw:protected"] => array(0) {
+                      }
+                      ["_httpResponseCode:protected"] => int(200)
+                      ["_isRedirect:protected"] => bool(false)
+                      ["_renderExceptions:protected"] => bool(false)
+                      ["headersSentThrowsException"] => bool(true)
+                    }
+                  }
+                }
+                [1] => array(6) {
+                  ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                  ["line"] => int(10)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(21) "Zend_Controller_Front"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(0) {
+                  }
+                }
+              }
+            }
+          }
+          ["_headers:protected"] => array(0) {
+          }
+          ["_headersRaw:protected"] => array(0) {
+          }
+          ["_httpResponseCode:protected"] => int(200)
+          ["_isRedirect:protected"] => bool(false)
+          ["_renderExceptions:protected"] => bool(false)
+          ["headersSentThrowsException"] => bool(true)
+        }
+      }
+    }
+    [1] => array(6) {
+      ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+      ["line"] => int(10)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(21) "Zend_Controller_Front"
+      ["type"] => string(2) "->"
+      ["args"] => array(0) {
+      }
+    }
+  }
+}
+
+
+2011-11-07 15:29:58 198.178.168.44 00000001 /hgl/cc/kwdycsdck 
+
+object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+  ["_previous:private"] => NULL
+  ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+  ["string:private"] => string(0) ""
+  ["code:protected"] => int(0)
+  ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+  ["line:protected"] => int(248)
+  ["trace:private"] => array(2) {
+    [0] => array(6) {
+      ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+      ["line"] => int(954)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+      ["type"] => string(2) "->"
+      ["args"] => array(2) {
+        [0] => object(Zend_Controller_Request_Http)#24 (15) {
+          ["_paramSources:protected"] => array(2) {
+            [0] => string(4) "_GET"
+            [1] => string(5) "_POST"
+          }
+          ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+          ["_baseUrl:protected"] => string(4) "/hgl"
+          ["_basePath:protected"] => string(4) "/hgl"
+          ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+          ["_params:protected"] => array(4) {
+            ["module"] => string(2) "cc"
+            ["controller"] => string(9) "kwdycsdck"
+            ["action"] => string(5) "index"
+            ["error_handler"] => object(ArrayObject)#28 (3) {
+              ["exception"] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+                ["_previous:private"] => NULL
+                ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+                ["string:private"] => string(0) ""
+                ["code:protected"] => int(0)
+                ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+                ["line:protected"] => int(248)
+                ["trace:private"] => array(2) {
+                  [0] => array(6) {
+                    ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                    ["line"] => int(954)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(2) {
+                      [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                        ["_paramSources:protected"] => array(2) {
+                          [0] => string(4) "_GET"
+                          [1] => string(5) "_POST"
+                        }
+                        ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                        ["_baseUrl:protected"] => string(4) "/hgl"
+                        ["_basePath:protected"] => string(4) "/hgl"
+                        ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                        ["_params:protected"] => array(4) {
+                          ["module"] => string(2) "cc"
+                          ["controller"] => string(9) "kwdycsdck"
+                          ["action"] => string(5) "index"
+                          ["error_handler"] => object(ArrayObject)#28 (3) {
+                            ["exception"] => *RECURSION*
+                            ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                            ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                              ["_paramSources:protected"] => array(2) {
+                                [0] => string(4) "_GET"
+                                [1] => string(5) "_POST"
+                              }
+                              ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                              ["_baseUrl:protected"] => string(4) "/hgl"
+                              ["_basePath:protected"] => NULL
+                              ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                              ["_params:protected"] => array(3) {
+                                ["module"] => string(2) "cc"
+                                ["controller"] => string(9) "kwdycsdck"
+                                ["action"] => string(5) "index"
+                              }
+                              ["_rawBody:protected"] => NULL
+                              ["_aliases:protected"] => array(0) {
+                              }
+                              ["_dispatched:protected"] => bool(true)
+                              ["_module:protected"] => string(2) "cc"
+                              ["_moduleKey:protected"] => string(6) "module"
+                              ["_controller:protected"] => string(9) "kwdycsdck"
+                              ["_controllerKey:protected"] => string(10) "controller"
+                              ["_action:protected"] => string(5) "index"
+                              ["_actionKey:protected"] => string(6) "action"
+                            }
+                          }
+                        }
+                        ["_rawBody:protected"] => NULL
+                        ["_aliases:protected"] => array(0) {
+                        }
+                        ["_dispatched:protected"] => bool(true)
+                        ["_module:protected"] => string(2) "gt"
+                        ["_moduleKey:protected"] => string(6) "module"
+                        ["_controller:protected"] => string(4) "info"
+                        ["_controllerKey:protected"] => string(10) "controller"
+                        ["_action:protected"] => string(5) "error"
+                        ["_actionKey:protected"] => string(6) "action"
+                      }
+                      [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                        ["_body:protected"] => array(0) {
+                        }
+                        ["_exceptions:protected"] => array(1) {
+                          [0] => *RECURSION*
+                        }
+                        ["_headers:protected"] => array(0) {
+                        }
+                        ["_headersRaw:protected"] => array(0) {
+                        }
+                        ["_httpResponseCode:protected"] => int(200)
+                        ["_isRedirect:protected"] => bool(false)
+                        ["_renderExceptions:protected"] => bool(false)
+                        ["headersSentThrowsException"] => bool(true)
+                      }
+                    }
+                  }
+                  [1] => array(6) {
+                    ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                    ["line"] => int(10)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(21) "Zend_Controller_Front"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(0) {
+                    }
+                  }
+                }
+              }
+              ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+              ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                ["_paramSources:protected"] => array(2) {
+                  [0] => string(4) "_GET"
+                  [1] => string(5) "_POST"
+                }
+                ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                ["_baseUrl:protected"] => string(4) "/hgl"
+                ["_basePath:protected"] => NULL
+                ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                ["_params:protected"] => array(3) {
+                  ["module"] => string(2) "cc"
+                  ["controller"] => string(9) "kwdycsdck"
+                  ["action"] => string(5) "index"
+                }
+                ["_rawBody:protected"] => NULL
+                ["_aliases:protected"] => array(0) {
+                }
+                ["_dispatched:protected"] => bool(true)
+                ["_module:protected"] => string(2) "cc"
+                ["_moduleKey:protected"] => string(6) "module"
+                ["_controller:protected"] => string(9) "kwdycsdck"
+                ["_controllerKey:protected"] => string(10) "controller"
+                ["_action:protected"] => string(5) "index"
+                ["_actionKey:protected"] => string(6) "action"
+              }
+            }
+          }
+          ["_rawBody:protected"] => NULL
+          ["_aliases:protected"] => array(0) {
+          }
+          ["_dispatched:protected"] => bool(true)
+          ["_module:protected"] => string(2) "gt"
+          ["_moduleKey:protected"] => string(6) "module"
+          ["_controller:protected"] => string(4) "info"
+          ["_controllerKey:protected"] => string(10) "controller"
+          ["_action:protected"] => string(5) "error"
+          ["_actionKey:protected"] => string(6) "action"
+        }
+        [1] => object(Zend_Controller_Response_Http)#25 (8) {
+          ["_body:protected"] => array(0) {
+          }
+          ["_exceptions:protected"] => array(1) {
+            [0] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+              ["_previous:private"] => NULL
+              ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+              ["string:private"] => string(0) ""
+              ["code:protected"] => int(0)
+              ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+              ["line:protected"] => int(248)
+              ["trace:private"] => array(2) {
+                [0] => array(6) {
+                  ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                  ["line"] => int(954)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(2) {
+                    [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                      ["_paramSources:protected"] => array(2) {
+                        [0] => string(4) "_GET"
+                        [1] => string(5) "_POST"
+                      }
+                      ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                      ["_baseUrl:protected"] => string(4) "/hgl"
+                      ["_basePath:protected"] => string(4) "/hgl"
+                      ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                      ["_params:protected"] => array(4) {
+                        ["module"] => string(2) "cc"
+                        ["controller"] => string(9) "kwdycsdck"
+                        ["action"] => string(5) "index"
+                        ["error_handler"] => object(ArrayObject)#28 (3) {
+                          ["exception"] => *RECURSION*
+                          ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                          ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                            ["_paramSources:protected"] => array(2) {
+                              [0] => string(4) "_GET"
+                              [1] => string(5) "_POST"
+                            }
+                            ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                            ["_baseUrl:protected"] => string(4) "/hgl"
+                            ["_basePath:protected"] => NULL
+                            ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                            ["_params:protected"] => array(3) {
+                              ["module"] => string(2) "cc"
+                              ["controller"] => string(9) "kwdycsdck"
+                              ["action"] => string(5) "index"
+                            }
+                            ["_rawBody:protected"] => NULL
+                            ["_aliases:protected"] => array(0) {
+                            }
+                            ["_dispatched:protected"] => bool(true)
+                            ["_module:protected"] => string(2) "cc"
+                            ["_moduleKey:protected"] => string(6) "module"
+                            ["_controller:protected"] => string(9) "kwdycsdck"
+                            ["_controllerKey:protected"] => string(10) "controller"
+                            ["_action:protected"] => string(5) "index"
+                            ["_actionKey:protected"] => string(6) "action"
+                          }
+                        }
+                      }
+                      ["_rawBody:protected"] => NULL
+                      ["_aliases:protected"] => array(0) {
+                      }
+                      ["_dispatched:protected"] => bool(true)
+                      ["_module:protected"] => string(2) "gt"
+                      ["_moduleKey:protected"] => string(6) "module"
+                      ["_controller:protected"] => string(4) "info"
+                      ["_controllerKey:protected"] => string(10) "controller"
+                      ["_action:protected"] => string(5) "error"
+                      ["_actionKey:protected"] => string(6) "action"
+                    }
+                    [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                      ["_body:protected"] => array(0) {
+                      }
+                      ["_exceptions:protected"] => array(1) {
+                        [0] => *RECURSION*
+                      }
+                      ["_headers:protected"] => array(0) {
+                      }
+                      ["_headersRaw:protected"] => array(0) {
+                      }
+                      ["_httpResponseCode:protected"] => int(200)
+                      ["_isRedirect:protected"] => bool(false)
+                      ["_renderExceptions:protected"] => bool(false)
+                      ["headersSentThrowsException"] => bool(true)
+                    }
+                  }
+                }
+                [1] => array(6) {
+                  ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                  ["line"] => int(10)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(21) "Zend_Controller_Front"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(0) {
+                  }
+                }
+              }
+            }
+          }
+          ["_headers:protected"] => array(0) {
+          }
+          ["_headersRaw:protected"] => array(0) {
+          }
+          ["_httpResponseCode:protected"] => int(200)
+          ["_isRedirect:protected"] => bool(false)
+          ["_renderExceptions:protected"] => bool(false)
+          ["headersSentThrowsException"] => bool(true)
+        }
+      }
+    }
+    [1] => array(6) {
+      ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+      ["line"] => int(10)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(21) "Zend_Controller_Front"
+      ["type"] => string(2) "->"
+      ["args"] => array(0) {
+      }
+    }
+  }
+}
+
+
+2011-11-07 15:30:05 198.178.168.44 00000001 /hgl/cc/kwdycsdck 
+
+object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+  ["_previous:private"] => NULL
+  ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+  ["string:private"] => string(0) ""
+  ["code:protected"] => int(0)
+  ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+  ["line:protected"] => int(248)
+  ["trace:private"] => array(2) {
+    [0] => array(6) {
+      ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+      ["line"] => int(954)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+      ["type"] => string(2) "->"
+      ["args"] => array(2) {
+        [0] => object(Zend_Controller_Request_Http)#24 (15) {
+          ["_paramSources:protected"] => array(2) {
+            [0] => string(4) "_GET"
+            [1] => string(5) "_POST"
+          }
+          ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+          ["_baseUrl:protected"] => string(4) "/hgl"
+          ["_basePath:protected"] => string(4) "/hgl"
+          ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+          ["_params:protected"] => array(4) {
+            ["module"] => string(2) "cc"
+            ["controller"] => string(9) "kwdycsdck"
+            ["action"] => string(5) "index"
+            ["error_handler"] => object(ArrayObject)#28 (3) {
+              ["exception"] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+                ["_previous:private"] => NULL
+                ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+                ["string:private"] => string(0) ""
+                ["code:protected"] => int(0)
+                ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+                ["line:protected"] => int(248)
+                ["trace:private"] => array(2) {
+                  [0] => array(6) {
+                    ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                    ["line"] => int(954)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(2) {
+                      [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                        ["_paramSources:protected"] => array(2) {
+                          [0] => string(4) "_GET"
+                          [1] => string(5) "_POST"
+                        }
+                        ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                        ["_baseUrl:protected"] => string(4) "/hgl"
+                        ["_basePath:protected"] => string(4) "/hgl"
+                        ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                        ["_params:protected"] => array(4) {
+                          ["module"] => string(2) "cc"
+                          ["controller"] => string(9) "kwdycsdck"
+                          ["action"] => string(5) "index"
+                          ["error_handler"] => object(ArrayObject)#28 (3) {
+                            ["exception"] => *RECURSION*
+                            ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                            ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                              ["_paramSources:protected"] => array(2) {
+                                [0] => string(4) "_GET"
+                                [1] => string(5) "_POST"
+                              }
+                              ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                              ["_baseUrl:protected"] => string(4) "/hgl"
+                              ["_basePath:protected"] => NULL
+                              ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                              ["_params:protected"] => array(3) {
+                                ["module"] => string(2) "cc"
+                                ["controller"] => string(9) "kwdycsdck"
+                                ["action"] => string(5) "index"
+                              }
+                              ["_rawBody:protected"] => NULL
+                              ["_aliases:protected"] => array(0) {
+                              }
+                              ["_dispatched:protected"] => bool(true)
+                              ["_module:protected"] => string(2) "cc"
+                              ["_moduleKey:protected"] => string(6) "module"
+                              ["_controller:protected"] => string(9) "kwdycsdck"
+                              ["_controllerKey:protected"] => string(10) "controller"
+                              ["_action:protected"] => string(5) "index"
+                              ["_actionKey:protected"] => string(6) "action"
+                            }
+                          }
+                        }
+                        ["_rawBody:protected"] => NULL
+                        ["_aliases:protected"] => array(0) {
+                        }
+                        ["_dispatched:protected"] => bool(true)
+                        ["_module:protected"] => string(2) "gt"
+                        ["_moduleKey:protected"] => string(6) "module"
+                        ["_controller:protected"] => string(4) "info"
+                        ["_controllerKey:protected"] => string(10) "controller"
+                        ["_action:protected"] => string(5) "error"
+                        ["_actionKey:protected"] => string(6) "action"
+                      }
+                      [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                        ["_body:protected"] => array(0) {
+                        }
+                        ["_exceptions:protected"] => array(1) {
+                          [0] => *RECURSION*
+                        }
+                        ["_headers:protected"] => array(0) {
+                        }
+                        ["_headersRaw:protected"] => array(0) {
+                        }
+                        ["_httpResponseCode:protected"] => int(200)
+                        ["_isRedirect:protected"] => bool(false)
+                        ["_renderExceptions:protected"] => bool(false)
+                        ["headersSentThrowsException"] => bool(true)
+                      }
+                    }
+                  }
+                  [1] => array(6) {
+                    ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                    ["line"] => int(10)
+                    ["function"] => string(8) "dispatch"
+                    ["class"] => string(21) "Zend_Controller_Front"
+                    ["type"] => string(2) "->"
+                    ["args"] => array(0) {
+                    }
+                  }
+                }
+              }
+              ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+              ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                ["_paramSources:protected"] => array(2) {
+                  [0] => string(4) "_GET"
+                  [1] => string(5) "_POST"
+                }
+                ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                ["_baseUrl:protected"] => string(4) "/hgl"
+                ["_basePath:protected"] => NULL
+                ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                ["_params:protected"] => array(3) {
+                  ["module"] => string(2) "cc"
+                  ["controller"] => string(9) "kwdycsdck"
+                  ["action"] => string(5) "index"
+                }
+                ["_rawBody:protected"] => NULL
+                ["_aliases:protected"] => array(0) {
+                }
+                ["_dispatched:protected"] => bool(true)
+                ["_module:protected"] => string(2) "cc"
+                ["_moduleKey:protected"] => string(6) "module"
+                ["_controller:protected"] => string(9) "kwdycsdck"
+                ["_controllerKey:protected"] => string(10) "controller"
+                ["_action:protected"] => string(5) "index"
+                ["_actionKey:protected"] => string(6) "action"
+              }
+            }
+          }
+          ["_rawBody:protected"] => NULL
+          ["_aliases:protected"] => array(0) {
+          }
+          ["_dispatched:protected"] => bool(true)
+          ["_module:protected"] => string(2) "gt"
+          ["_moduleKey:protected"] => string(6) "module"
+          ["_controller:protected"] => string(4) "info"
+          ["_controllerKey:protected"] => string(10) "controller"
+          ["_action:protected"] => string(5) "error"
+          ["_actionKey:protected"] => string(6) "action"
+        }
+        [1] => object(Zend_Controller_Response_Http)#25 (8) {
+          ["_body:protected"] => array(0) {
+          }
+          ["_exceptions:protected"] => array(1) {
+            [0] => object(Zend_Controller_Dispatcher_Exception)#27 (7) {
+              ["_previous:private"] => NULL
+              ["message:protected"] => string(40) "Invalid controller specified (kwdycsdck)"
+              ["string:private"] => string(0) ""
+              ["code:protected"] => int(0)
+              ["file:protected"] => string(88) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Dispatcher\Standard.php"
+              ["line:protected"] => int(248)
+              ["trace:private"] => array(2) {
+                [0] => array(6) {
+                  ["file"] => string(74) "C:\Program Files\Zend\Apache2\htdocs\hgl\library\Zend\Controller\Front.php"
+                  ["line"] => int(954)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(35) "Zend_Controller_Dispatcher_Standard"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(2) {
+                    [0] => object(Zend_Controller_Request_Http)#24 (15) {
+                      ["_paramSources:protected"] => array(2) {
+                        [0] => string(4) "_GET"
+                        [1] => string(5) "_POST"
+                      }
+                      ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                      ["_baseUrl:protected"] => string(4) "/hgl"
+                      ["_basePath:protected"] => string(4) "/hgl"
+                      ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                      ["_params:protected"] => array(4) {
+                        ["module"] => string(2) "cc"
+                        ["controller"] => string(9) "kwdycsdck"
+                        ["action"] => string(5) "index"
+                        ["error_handler"] => object(ArrayObject)#28 (3) {
+                          ["exception"] => *RECURSION*
+                          ["type"] => string(23) "EXCEPTION_NO_CONTROLLER"
+                          ["request"] => object(Zend_Controller_Request_Http)#29 (15) {
+                            ["_paramSources:protected"] => array(2) {
+                              [0] => string(4) "_GET"
+                              [1] => string(5) "_POST"
+                            }
+                            ["_requestUri:protected"] => string(17) "/hgl/cc/kwdycsdck"
+                            ["_baseUrl:protected"] => string(4) "/hgl"
+                            ["_basePath:protected"] => NULL
+                            ["_pathInfo:protected"] => string(13) "/cc/kwdycsdck"
+                            ["_params:protected"] => array(3) {
+                              ["module"] => string(2) "cc"
+                              ["controller"] => string(9) "kwdycsdck"
+                              ["action"] => string(5) "index"
+                            }
+                            ["_rawBody:protected"] => NULL
+                            ["_aliases:protected"] => array(0) {
+                            }
+                            ["_dispatched:protected"] => bool(true)
+                            ["_module:protected"] => string(2) "cc"
+                            ["_moduleKey:protected"] => string(6) "module"
+                            ["_controller:protected"] => string(9) "kwdycsdck"
+                            ["_controllerKey:protected"] => string(10) "controller"
+                            ["_action:protected"] => string(5) "index"
+                            ["_actionKey:protected"] => string(6) "action"
+                          }
+                        }
+                      }
+                      ["_rawBody:protected"] => NULL
+                      ["_aliases:protected"] => array(0) {
+                      }
+                      ["_dispatched:protected"] => bool(true)
+                      ["_module:protected"] => string(2) "gt"
+                      ["_moduleKey:protected"] => string(6) "module"
+                      ["_controller:protected"] => string(4) "info"
+                      ["_controllerKey:protected"] => string(10) "controller"
+                      ["_action:protected"] => string(5) "error"
+                      ["_actionKey:protected"] => string(6) "action"
+                    }
+                    [1] => object(Zend_Controller_Response_Http)#25 (8) {
+                      ["_body:protected"] => array(0) {
+                      }
+                      ["_exceptions:protected"] => array(1) {
+                        [0] => *RECURSION*
+                      }
+                      ["_headers:protected"] => array(0) {
+                      }
+                      ["_headersRaw:protected"] => array(0) {
+                      }
+                      ["_httpResponseCode:protected"] => int(200)
+                      ["_isRedirect:protected"] => bool(false)
+                      ["_renderExceptions:protected"] => bool(false)
+                      ["headersSentThrowsException"] => bool(true)
+                    }
+                  }
+                }
+                [1] => array(6) {
+                  ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+                  ["line"] => int(10)
+                  ["function"] => string(8) "dispatch"
+                  ["class"] => string(21) "Zend_Controller_Front"
+                  ["type"] => string(2) "->"
+                  ["args"] => array(0) {
+                  }
+                }
+              }
+            }
+          }
+          ["_headers:protected"] => array(0) {
+          }
+          ["_headersRaw:protected"] => array(0) {
+          }
+          ["_httpResponseCode:protected"] => int(200)
+          ["_isRedirect:protected"] => bool(false)
+          ["_renderExceptions:protected"] => bool(false)
+          ["headersSentThrowsException"] => bool(true)
+        }
+      }
+    }
+    [1] => array(6) {
+      ["file"] => string(50) "C:\Program Files\Zend\Apache2\htdocs\hgl\index.php"
+      ["line"] => int(10)
+      ["function"] => string(8) "dispatch"
+      ["class"] => string(21) "Zend_Controller_Front"
+      ["type"] => string(2) "->"
+      ["args"] => array(0) {
+      }
+    }
+  }
+}
+
+
